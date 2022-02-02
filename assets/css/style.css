@@ -7,8 +7,9 @@
   --html-color: #ff6d00;
   --css-color: #039be5;
   --js-color: #ffd600;
-  --flutter-color: #40c4ff;
-  --typescript-color: #2c7389;
+  --react-color: #61d9fb;
+  --test-color: #40c4ff;
+  --typescript-color: #007acc;
 }
 
 * {
@@ -114,6 +115,11 @@ header {
   background-color: var(--terciary);
 }
 
+.logo {
+  margin-left: 20px;
+  width: 100%;
+}
+
 /* Section Banner */
 
 #banner {
@@ -157,6 +163,10 @@ header {
   font-size: 3.5rem;
   animation: 3s ease-in 1s infinite reverse both running bye;
   display: inline-block;
+}
+
+.banner-direita img {
+  width: 75%;
 }
 
 .buttom {
@@ -308,7 +318,15 @@ header {
 }
 
 .conhecimentos .card:nth-child(4)::after {
-  background-color: var(--flutter-color);
+  background-color: var(--typescript-color);
+}
+
+.conhecimentos .card:nth-child(5)::after {
+  background-color: var(--react-color);
+}
+
+.conhecimentos .card:nth-child(6)::after {
+  background-color: var(--react-color);
 }
 
 .conhecimentos .card:hover {
@@ -452,7 +470,7 @@ header {
 }
 
 .projeto-card-desc-categoria.reactnative {
-  border: 2px solid var(--flutter-color);
+  border: 2px solid var(--react-color);
   background-color: rgba(64, 196, 255, 0.25);
 }
 
